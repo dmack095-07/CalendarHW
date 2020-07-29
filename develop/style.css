@@ -1,0 +1,90 @@
+body {
+  /* Typography */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  /* Positioning */
+  line-height: 1;
+}
+
+textarea{
+  /* Positioning */
+  background: transparent;
+  border: none;
+  resize: none;
+  border-left: 1px solid black;
+  padding: 10px;
+  /* Visual */
+  color: #000000;
+}
+
+.jumbotron {
+  /* Positioning */
+  text-align: center;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+  /* Visual */
+  background-color: transparent;
+  color: black;
+  
+}
+
+.description{
+  /* Visual */
+  white-space: pre-wrap;
+}
+
+.time-block{
+  /* Positioning */
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  /* Visual */
+  white-space: pre-wrap;
+  /* Positioning */
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  /* Visual */
+  background-color: #ffffff;
+  color: #000000;
+  /* Positioning */
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  /* Visual */
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  /* Visual */
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  /* Visual */
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  /* Positioning */
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  /* Visual */
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  /* Typography */
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
